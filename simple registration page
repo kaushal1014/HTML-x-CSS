@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Search</title>
+	<style type="text/css">
+#container
+{
+text-align:center;
+margin-bottom:400px;
+}
+#p
+{
+text-align:center;
+}
+#t
+{
+text-align:center;
+}
+#r
+{
+text-align:center;
+}
+#s
+{
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+<div class="container" id="container">
+    <form action="search/" method="get">
+	
+       Username
+	   <div class="container" id="t">
+	    <input type="text" name="a"></br>
+		</div>
+	   Password
+	   <div class="container" id="r">
+	   <input type="text" name="b"></br>
+		</div>
+      
+
+       Emailid
+	   <div class="container" id="s">
+	   <input type="text" name="c"></br>
+		</div>
+	   PhoneNo.
+	   <div class="container" id="p">
+	   <input type="text" name="d">
+		</div>
+		</br>
+
+		</br>
+		<input type="submit" value="submit">
+</div>		
+		
+    </form>
+</body>
+</html>
